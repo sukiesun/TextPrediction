@@ -5,7 +5,7 @@ library(tm)
 library(stringr)
 library(stringi)
 source("functions.R")
-load("tb4.RData")
+load("tb4_2.RData")
 
 
 

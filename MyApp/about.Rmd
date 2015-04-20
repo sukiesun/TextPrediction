@@ -13,5 +13,5 @@ The app dictionary is created by the provided English data sets containing blogs
 
 The basic idea is using the ngrams model to build the prediction algorithm.
 
-Please find more details in:
+Please find more details in the github repo: https://github.com/sukiesun/TextPrediction
 

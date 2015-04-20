@@ -2,7 +2,7 @@ library(stylo)
 library(tm)
 library(stringr)
 library(stringi)
-load("tb4.RData")
+load("tb4_2.RData")
 
 clean_data<-function(text){
         cleanText <- removePunctuation(text)
