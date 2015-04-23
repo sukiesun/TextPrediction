@@ -7,11 +7,12 @@ output: html_document
 
 This app is made to predict the next word like what a smart keyboard does as the Coursera Data Science Capstone project.
 
-SwiftKey is the project partber.
+SwiftKey is the project partner.
 
-The app dictionary is created by the provided English data sets containing blogs, news and twitters.
+The app dictionary is created by the provided English data sets containing blogs, news and twitter files.
 
-The basic idea is using the ngrams model to build the prediction algorithm.
+The basic idea is cleaning the data sets and tokenizing them into ngram models to build the prediction algorithm.
 
 Please find more details in the github repo: https://github.com/sukiesun/TextPrediction
+
 
