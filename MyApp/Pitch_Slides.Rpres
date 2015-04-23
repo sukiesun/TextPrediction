@@ -1,0 +1,45 @@
+Data Science Capstone Project -- Smart Keyboard
+========================================================
+author: Sukie Sun
+date: April 22, 2015
+
+Motivations
+========================================================
+
+- These days people are spending more and more time with their mobile devices for emails, social medias or other activities. 
+- This app is motivated by the capstone partner SwiftKey to provide the prediction of the next word when people are typing with their mobile devices.
+
+
+App Features and How To Use it
+========================================================
+**App link :** https://sukiesun.shinyapps.io/MyApp
+
+- Step1: You can open this link with any of your mobile device.
+- Step2: Type into the sentence or just a word.
+- Step3: Enjoy the real time prediction of the next word!
+
+Below is the head of the 4-grams dictionary:
+
+```{r, echo=FALSE}
+load("tb4_2.RData")
+head(tb4)
+```
+
+Data Sets and Algorithm
+========================================================
+- **Github repo:** https://github.com/sukiesun/TextPrediction
+- Three data sets contain blogs, news and twitter in English were provided.
+- Clean the provided data sets by removing punctuation, emoji, numbers and etc.
+- Tokenize the clean data sets and build the bigrams, trigrams and 4-grams model.
+- Use the backoff method to match the dictionary with the input string after applying the same clean function. 
+- NA is returned if nothing is found.
+- Display the predicted word in the real time. 
+
+Next Steps
+========================================================
+This app is the first prototype.
+
+My next steps are:
+- Predict with the acronym (the abbreviation formed from the initial components in a phrase or a word).
+- Consider the whole sentence instead of the last n words.
+- Explore more models to improve the performance.
